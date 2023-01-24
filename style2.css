@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'lato',sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.container{
+    width: 100vw;
+    height: 87vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.image{
+    height: 100%;
+    background-color:#50b7f5;
+    flex: 0 1 59vw;
+
+}
+
+.big-bird{
+    width: 16rem;
+    position: absolute;
+    top: 5rem;
+    left: 11rem;
+    fill: navajowhite;
+    
+}
+.small-bird {
+    height: 4rem;
+    margin-top: 7rem;
+  }
+  .content h1 {
+   
+    font-size: 3rem;
+  }
+  .content h3 {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  } 
+  .btn{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    text-decoration: none;
+  }
+.btn-signup{
+    border: none;
+    background-color: #50b7f5;
+    border-radius: 30rem;
+    height: 2rem;
+    margin-top: 0.2rem;
+    color: white;
+
+}
+.btn-login{
+        border: 1px solid gray;
+    
+    border-radius: 30rem;
+    height: 2rem;
+    margin-top: 0.3rem;
+    color:#50b7f5;
+}
+.button a{
+    margin: 0.3rem;
+}
+.footer nav a,
+footer nav div{
+    text-decoration: none;
+    font-size: 13px;
+    color: grey;
+    text-transform: capitalize;
+    margin: .5rem 1.1rem;
+    transition: all .2s ease;
+    margin-top: 2rem;
+}
+
+.footer nav a:hover{
+    border-bottom: 1px solid grey   ;
+}
+.content {
+    margin-left: 2rem;
+  }
+
+ 
+.footer {
+
+    margin-top: 1rem;
+
+}
+.btn:hover{
+    background-color: #b4e2ff;
+}
+/* login page */
+.login-page{
+    position: absolute;
+top: 6%;
+left: 31%;
+background-color: #f7f7f7;
+width: 448px;
+height: 34rem;
+}
+.twitter-img {
+    width: 5rem;
+    position: absolute;
+    top: 2rem;
+    left: 11    rem;
+  }
+
+button img {
+    width: 3rem;
+  }
+
+  .google-cls{
+    margin-top: 7rem;
+    margin-left: 2rem;
+  }
+  .google-cls {
+    margin-top: 7rem;
+    margin-left: 6rem;
+    width: 15rem;
+    border-radius: 5rem;
+    border: none;
+    height: 3rem;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .apple-class{
+    margin-top: 1rem;
+    margin-left: 6rem;
+    width: 15rem;
+    border-radius: 5rem;
+    border: none;
+    height: 3rem;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+
+  }
+  .h5 {
+    font-size: 1.6rem;
+    margin-left: 12rem;
+  }
+  .input {
+    margin-left: 7rem;
+    margin-top: 1rem;
+    width: 13rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 1em;
+    border: 0.1px solid gray;
+  }
+  .next-btn{
+    margin-left: 7rem;
+    margin-top: 1rem;
+    width: 13rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 1em;
+    border: 0.1px solid gray;
+    background-color: black;
+    color: white;
+  }
+  .forget {
+    margin-left: 7rem;
+    margin-top: 1rem;
+    width: 13rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 1em;
+    border: 0.1px solid gray;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .forget:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .p {
+    margin-left: 7rem;
+    margin-top: 1rem;
+  }
+  .sing {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: blue;
+  }  
+  /* signup page */
+  .content-input input {
+    text-align: center;
+    font-size: 0.9rem;
+    width: 14rem;
+    padding: 0.4rem;
+    border-radius: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 7rem;
+  }
+  .submit {
+    margin-left: 11rem;
+    width: 8rem;
+    height: 2rem;
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 3rem;
+  }
+  .submit:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid gray;
+  }
+  .edit-form {
+    margin-top: 7rem;
+  }
+  .submit2 {
+    margin-left: 11rem;
+    background-color: black;
+    border: none;
+    color: white;
+    height: 2rem;
+    width: 7rem;
+    border-radius: 2rem;
+  }
+  .submit2:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid gray;
+  }
+  /* tweet */
+  .tweet {
+    background-color: #eaeaea;
+    width: 39rem;
+    margin-left: 17rem;
+    margin-top: 3rem;
+    height: 34rem;
+  }
+  .tweet-img {
+    margin-left: 16rem;
+    height: 4rem;
+    background: none;
+    margin-top: 2rem;
+  }
+  .input-heading{
+    margin-left: 12rem;
+    margin-top: 1rem;
+    text-align: center;
+    width: 17rem;
+    height: 4rem;
+    font-size: 1.8rem;  }
+    .input-tweet {
+      margin-left: 9rem;
+      width: 23rem;
+      margin-top: 1rem;
+      text-align: center;
+      font-size: 1.8rem;
+      height: 8rem;
+    
+    }
+    .tweet-button {
+      margin-left: 16rem;
+      width: 8rem;
+      height: 3rem;
+      margin-top: 1rem;
+      border: none;
+      background-color: black;
+      color: white;
+      font-size: 1.2rem;
+      border-radius: 3rem;
+      
+    }
+    .tweet-button:hover{
+      background-color:white;
+      color: black;
+      border: 1px solid gray;
+    }
+    
